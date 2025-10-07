@@ -1,0 +1,29 @@
+# Ignore environment files
+.env
+
+# PHP dependencies
+vendor/
+
+# Node dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Composer
+composer.lock
+
+# Ignore user-specific files
+*.local
+
+# Ignore compiled assets
+dist/
+build/
