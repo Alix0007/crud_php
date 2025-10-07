@@ -1,4 +1,5 @@
 <?php include "auth.php"; ?>
+<?php include "page_password.php"; ?>
 <h2>Search Record</h2>
 <form method="POST">
     <input type="text" name="name" placeholder="Enter Name">

@@ -1,4 +1,5 @@
 <?php include "auth.php"; ?>
+<?php include "page_password.php"; ?>
 <h2>Delete Record</h2>
 <form method="POST">
     <input type="number" name="id" placeholder="Enter Record ID" required>
