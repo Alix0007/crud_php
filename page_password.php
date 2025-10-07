@@ -1,7 +1,6 @@
 <?php
 // page_password.php
 // Include this after auth.php on pages that require an extra page-level password.
-session_start();
 
 $page = basename($_SERVER['PHP_SELF']);
 $required = 'ali007';
@@ -46,3 +45,7 @@ if(isset($_POST['__page_password_submit']) && isset($_POST['__page_password'])){
     </form>
 </body>
 </html>
+<?php
+// prevent the including page from running if not authorized
+exit();
+?>
